@@ -55,7 +55,7 @@ def getAdsGroups(API_KEY: str, API_SECRET: str, NCC_CAMPAIGN_Id: str, CUSTOMER_I
     return res.json()
 
 
-def getAdsGroups(API_KEY: str, API_SECRET: str, CUSTOMER_ID: str) -> list:
+def getAds(API_KEY: str, API_SECRET: str, CUSTOMER_ID: str, ) -> list:
     pass
 
 
