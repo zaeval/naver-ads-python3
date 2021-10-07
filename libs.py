@@ -90,3 +90,4 @@ def deleteIpExclusion(API_KEY: str, API_SECRET: str, CUSTOMER_ID: str, ids: list
         'Content-Type': 'application/json'
     }, params={"ids": ids})
     return res.status_code
+
